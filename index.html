@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style>.lw { font-size: 60px; font-family: Arial, Helvetica, sans-serif; }</style>
+            </head>
+            <body>
+                
+
+
+    <meta charset="UTF-8">
+    <title>Kohane</title>
+
+
+    <center>
+        <h1>Azusawa Kohane 🩷</h1>   
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVFXKzKweckjCUtsn24KqCnhkLC-UeiVbtog&amp;s" width="30%"><br>
+        <button onclick="kohanebb()">🩷Random Kohane🩷</button>
+        <p id="goodluck">這激動人心的舞台，有傳遞給你嗎？下次也再來聽吧！</p>
+    </center>
+
+
+                <script>var verses = [
+    "因為想和大家一起看新的風景，所以今後我也要向著夢想全力歌唱。",
+    "這激動人心的舞台，有傳遞給你嗎？下次也再來聽吧！",
+    "再踏上那段旅途，還能找到那段路嗎？",
+    "但盛放的櫻花仍如那時",
+]
+
+function kohanebb(){
+    var random = parseInt(Math.random()*4);
+    document.getElementById("goodluck").innerText = verses [random];
+}</script>
+            
+        
+    </body>
